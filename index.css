@@ -1,0 +1,48 @@
+* {
+  font-family: monospace;
+  font-size: 24px;
+}
+
+body {
+  background-color: #00000088;
+  color: #ffffff;
+  margin: 0;
+}
+
+table {
+  width: 100%;
+}
+
+td {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+tr {
+  background-color: #222222;
+  padding: 10px;
+}
+
+.row_role {
+  width: 5%;
+}
+.row_name {
+  width: 65%;
+}
+.row_dmg {
+  width: 30%;
+}
+
+.entry_rhs {
+  text-align: end;
+}
+
+html {
+  height: 100%;
+  overflow: hidden;
+  background-color: transparent;
+}
+
+
