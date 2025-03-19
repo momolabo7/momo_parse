@@ -119,8 +119,9 @@ function update(data)
     let i = 0
     for(const [k,v] of Object.entries(data.Combatant))
     {
+      console.log(v);
       entries[i].set_name(k);
-      entries[i].set_dmg(v.DPS);
+      entries[i].set_dmg(v.ENCDPS);
 
       if (v.Job == "Limit Break")
         v.Job = "LB";
